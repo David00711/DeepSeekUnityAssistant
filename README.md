@@ -72,13 +72,13 @@
 1. Открой **Window → Package Manager**
 2. Нажми **+ → Add package from git URL...**
 3. Вставь ссылку:
-https://github.com/ТВОЙ_РЕПОЗИТОРИЙ/DeepSeekUnityAssistant.git
+https://github.com/David00711/DeepSeekUnityAssistant.git
 
 text
 
 ### Вариант 2: Вручную
 
-1. Скопируй папку пакета в `[https://github.com/David00711/DeepSeekUnityAssistant](https://github.com/David00711/DeepSeekUnityAssistant.git)`
+1. Скопируй папку пакета в `https://github.com/David00711/DeepSeekUnityAssistant.git`
 2. Открой Unity, дождись компиляции
 
 ### Зависимости
