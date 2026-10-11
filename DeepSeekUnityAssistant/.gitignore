@@ -1,0 +1,82 @@
+# ============================================================
+#  DeepSeek Unity Assistant — .gitignore
+# ============================================================
+
+# ---------- Unity: сгенерированное ----------
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+[Rr]ecordings/
+
+# ---------- Unity: скомпилированные артефакты ----------
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# ---------- Unity: авто-обновляемые ассеты ----------
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# ---------- Unity: crash-репорты ----------
+crashlytics-build.properties
+
+# ---------- IDE ----------
+.vs/
+.vscode/
+.idea/
+.ride/
+*.swp
+*~
+
+# ---------- OS ----------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ============================================================
+#  СЕКРЕТЫ — НИКОГДА НЕ КОММИТИТЬ!
+# ============================================================
+
+# API-ключ DeepSeek лежит внутри этого ассета — коммит = утечка
+DeepSeekConfig.asset
+DeepSeekConfig.asset.meta
+
+# На всякий случай — любые файлы с ключами
+*.apikey
+*.apikeys
+.env
+.env.*
+secrets.json
+credentials.json
+
+# ============================================================
+#  DeepSeek Unity Assistant — рантайм-данные
+# ============================================================
+
+# История диалогов (создаётся в Library, но на всякий случай)
+**/DeepSeek/history.json
+**/DeepSeek/screenshots/
