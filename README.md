@@ -78,7 +78,7 @@ text
 
 ### Вариант 2: Вручную
 
-1. Скопируй папку пакета в `https://github.com/David00711/DeepSeekUnityAssistant`
+1. Скопируй папку пакета в `[https://github.com/David00711/DeepSeekUnityAssistant](https://github.com/David00711/DeepSeekUnityAssistant.git)`
 2. Открой Unity, дождись компиляции
 
 ### Зависимости
