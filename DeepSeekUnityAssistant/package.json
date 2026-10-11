@@ -1,0 +1,23 @@
+{
+    "name": "com.galavinov.deepseek-assistant",
+    "version": "1.0.0",
+    "displayName": "DeepSeek Unity Assistant",
+    "description": "Бесплатный AI-ассистент для Unity Editor на базе DeepSeek. Поддержка русского языка, function calling, работа со сценой и скриптами.",
+    "unity": "2021.3",
+    "keywords": ["ai", "deepseek", "assistant", "editor", "llm", "chat"],
+    "author": {
+      "name": "Галавинов Давид Викторович",
+      "email": "",
+      "url": ""
+    },
+    "dependencies": {
+      "com.unity.nuget.newtonsoft-json": "3.2.1"
+    },
+    "samples": [
+      {
+        "displayName": "Demo Scene",
+        "description": "Демонстрационная сцена с примерами использования",
+        "path": "Samples~/DemoScene"
+      }
+    ]
+  }
